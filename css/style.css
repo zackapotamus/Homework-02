@@ -4,9 +4,56 @@ body {
 }
 
 #header-container {
-    border-bottom: 2px solid; border-bottom-color: #ccc;
+    border-bottom: 2px solid;
+    border-bottom-color: #ccc;
 }
 
 #header-row {
     background-color: white;
+}
+
+#header-name {
+    min-height: 90px;
+    color: white;
+    text-align: center;
+    line-height: 90px;
+    /* margin-left */
+}
+
+#header-nav-col {
+    min-height: 64px;
+    background-color: white;
+    min-width: 256px;
+}
+
+#header-row {
+    background-color: white;
+}
+
+h1,
+h2 {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    /* line-height: 90px; */
+    margin: 0 0 0 0;
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+p {
+    color: #777;
+}
+
+a {
+    color: #999;
+}
+
+h1#your-name {
+    line-height: 90px;
+    width: 250px;
+    background-color: #59aaa5;
+
 }
