@@ -1,4 +1,12 @@
 body {
-    background-image: url('../images/dust.png');
+    background-image: url('../images/background.png');
     background-repeat: repeat;
+}
+
+#header-container {
+    border-bottom: 2px solid; border-bottom-color: #ccc;
+}
+
+#header-row {
+    background-color: white;
 }
