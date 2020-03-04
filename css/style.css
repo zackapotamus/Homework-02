@@ -3,31 +3,33 @@ body {
     background-repeat: repeat;
 }
 
-.image-container {
+.image-container {}
 
+.card-container {}
+
+#about-me-card {
+    padding: 30px;
 }
 
-.card-container {
-
-}
-
-#z-border-box-768, #z-border-box-640, #z-border-box-980 {
+#z-border-box-992,
+#z-border-box-768,
+#z-border-box-576 {
     position: fixed;
     left: 0;
     top: 0;
     box-sizing: border-box;
-    width: 768px;
+    width: 576px;
     border-right: 1px solid black;
     height: 1600px;
 }
 
-#z-border-box-640 {
-    width: 640px;
+#z-border-box-768 {
+    width: 768px;
     border-right: 1px solid gray;
 }
 
-#z-border-box-980 {
-    width: 980px;
+#z-border-box-992 {
+    width: 992px;
     border-right: 1px solid purple;
 }
 
@@ -92,11 +94,22 @@ h2 {
 
 p {
     color: #777;
+    line-height: 33px;
+    font-size: 18px;
+
 }
 
 a {
     color: #999;
     font-size: 19px;
+}
+
+#about-me-image {
+    float: left;
+    width: 40%;
+    padding-right: 25px;
+    padding-bottom: 20px;
+    padding-top: 9px;
 }
 
 h1#your-name {
@@ -109,8 +122,18 @@ h1.card-title {
     color: #59aaa5;
 }
 
+/* Medium to small transition */
 @media screen and (max-width: 767px) {
     #header-name {
         background-color: #59aaa5;
+    }
+
+    #about-me-image {
+        float: none;
+        width: 100%;
+        height: auto;
+        padding-right: 0px;
+        padding-bottom: 20px;
+        padding-top: 13px;
     }
 }
