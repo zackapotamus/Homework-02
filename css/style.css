@@ -11,6 +11,13 @@ body {
 
 }
 
+.card {
+    border-radius: 0rem;
+    border-right-color: #ddd;
+    border-left-color: #ddd;
+    border-top-color: #ddd;
+    border-bottom-color: #ddd;
+}
 #copyright-text {
     font-size: 12px;
 }
@@ -94,7 +101,51 @@ h1 {
 }
 
 hr {
-    border: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    border-bottom: 2px solid #ddd;
+}
+
+.btn-primary {
+    color: white;
+    background-color: hsl(176, 32%, 51%);
+    border-bottom-color: #59aaa5;
+    border-radius: 0%;
+    border-left-color: #59aaa5;
+    border-right-color: #59aaa5;
+    border-bottom-color: #59aaa5;
+    border-top-color: #59aaa5;
+    height: 40px;
+    width: 115px
+}
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: hsl(176, 32%, 41%);
+    border-color: hsl(176, 32%, 41%);
+}
+
+.btn-primary.focus,
+.btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem hsla(176, 32%, 51%, 0.5);
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem hsla(176, 32%, 51%, 0.5);
+}
+
+/* .btn-primary {
+    color: #fff;
+    background-color: hsl(211, 100%, 50%);
+    border-color: hsl(211, 100%, 50%);
+} */
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: hsl(176, 32%, 44%);
+    border-color: hsl(176, 32%, 44%);
 }
 
 h2 {
@@ -111,6 +162,30 @@ p {
 a {
     color: #999;
     font-size: 19px;
+}
+
+label {
+    color: #777;
+    font-size: 19px;
+}
+
+input::placeholder {
+    color: #ccc !important;
+}
+input::-webkit-input-placeholder {
+    color: #ccc !important;
+}
+
+input::-moz-placeholder {
+    color: #ccc !important;
+}
+
+input:-ms-input-placeholder {
+    color: #ccc !important;
+}
+
+input:-moz-placeholder {
+    color: #ccc !important;
 }
 
 #about-me-image {
@@ -145,6 +220,29 @@ h1.card-title {
     color: #ddd;
 }
 
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ddd;
+    border-radius: 0rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.form-control:focus {
+    /* color: #454545; */
+    background-color: #fff;
+    border-color: #ccc;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem hsla(176, 32%, 30%, 0.20);
+}
+
 .footer-container {
 
 }
@@ -166,7 +264,7 @@ h1.card-title {
 
     .footer {
         height: 50px;
-        border-top: 3px solid #59aaa5;
+        border-top: 3px solid hsl(176, 32%, 51%);
         line-height: 47px;
     }
 }
