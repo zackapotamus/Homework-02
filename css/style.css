@@ -1,11 +1,19 @@
 body {
     background-image: url('../images/background.png');
     background-repeat: repeat;
+    margin-bottom: 200px;
+    min-height: 100%;
 }
 
 .image-container {}
 
-.card-container {}
+.card-container {
+
+}
+
+#copyright-text {
+    font-size: 12px;
+}
 
 #about-me-card {
     padding: 30px;
@@ -56,6 +64,7 @@ body {
 
 #header-row {
     background-color: white;
+    margin-right: 0px;
 }
 
 #header-name {
@@ -122,6 +131,24 @@ h1.card-title {
     color: #59aaa5;
 }
 
+.footer {
+    /* box-sizing: border-box; */
+    border-top: 6px solid #59aaa5;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 100px;
+    line-height: 94px;
+    /* Vertically center the text there */
+    background-color: #666;
+    color: #ddd;
+}
+
+.footer-container {
+
+}
+
 /* Medium to small transition */
 @media screen and (max-width: 767px) {
     #header-name {
@@ -135,5 +162,11 @@ h1.card-title {
         padding-right: 0px;
         padding-bottom: 20px;
         padding-top: 13px;
+    }
+
+    .footer {
+        height: 50px;
+        border-top: 3px solid #59aaa5;
+        line-height: 47px;
     }
 }
