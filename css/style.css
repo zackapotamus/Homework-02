@@ -74,14 +74,14 @@ body {
     background-color: white;
 }
 
-h1,
-h2 {
+h1 {
     font-family: Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
     /* line-height: 90px; */
     margin: 0 0 0 0;
     font-size: 30px;
 }
+
 
 h2 {
     font-size: 25px;
@@ -103,8 +103,8 @@ h1#your-name {
 
 }
 
-/* @media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     #header-name {
         background-color: #59aaa5;
     }
-} */
+}
