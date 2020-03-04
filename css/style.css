@@ -82,6 +82,9 @@ h1 {
     font-size: 30px;
 }
 
+hr {
+    border: 1px solid #ddd;
+}
 
 h2 {
     font-size: 25px;
@@ -100,7 +103,10 @@ h1#your-name {
     line-height: 90px;
     width: 250px;
     background-color: #59aaa5;
+}
 
+h1.card-title {
+    color: #59aaa5;
 }
 
 @media screen and (max-width: 767px) {
