@@ -8,4 +8,6 @@ This has greatly improved my knowledge and understanding of Bootstrap.  Given mo
 
 I relied heavily on the provided images and did my best to faithfully and accurately depict the header, footer, and style/colors.  Through lots of trial and error, I found what kinds of thing work -- what's possible and what's not.
 
+I went ahead and tried for the bonus (sticky footer) -- even though I think it makes the page look worse ;)
+
 I feel good about the finished product -- all the hard work finally paid off!
