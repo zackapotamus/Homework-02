@@ -5,10 +5,6 @@ body {
     min-height: 100%;
 }
 
-.image-container {}
-
-.card-container {}
-
 .card {
     border-radius: 0rem;
     border-right-color: #ddd;
@@ -23,42 +19,6 @@ body {
 
 #about-me-card {
     padding: 30px;
-}
-
-#z-border-box-992,
-#z-border-box-768,
-#z-border-box-576 {
-    position: fixed;
-    left: 0;
-    top: 0;
-    box-sizing: border-box;
-    width: 576px;
-    border-right: 1px solid black;
-    height: 1600px;
-}
-
-#z-border-box-768 {
-    width: 768px;
-    border-right: 1px solid gray;
-}
-
-#z-border-box-992 {
-    width: 992px;
-    border-right: 1px solid purple;
-}
-
-.z-col {
-    background-color: teal;
-    width: 250px;
-    min-height: 100px;
-    border: 1px solid black;
-}
-
-.z-col2 {
-    background-color: purple;
-    min-width: 350px;
-    min-height: 100px;
-    border: 1px solid black;
 }
 
 #header-container {
@@ -135,12 +95,6 @@ hr {
 .show>.btn-primary.dropdown-toggle:focus {
     box-shadow: 0 0 0 0.2rem hsla(176, 32%, 51%, 0.5);
 }
-
-/* .btn-primary {
-    color: #fff;
-    background-color: hsl(211, 100%, 50%);
-    border-color: hsl(211, 100%, 50%);
-} */
 
 .btn-primary:hover {
     color: #fff;
@@ -286,8 +240,6 @@ h1.card-title {
     outline: 0;
     box-shadow: 0 0 0 0.2rem hsla(176, 32%, 30%, 0.20);
 }
-
-.footer-container {}
 
 /* Medium to small transition */
 @media screen and (max-width: 767px) {
