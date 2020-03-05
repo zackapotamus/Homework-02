@@ -164,6 +164,10 @@ a {
     font-size: 19px;
 }
 
+a:hover {
+    color: #555;
+}
+
 label {
     color: #777;
     font-size: 19px;
@@ -193,7 +197,7 @@ input:-moz-placeholder {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 32px;
 }
 
 .portfolio-image {
@@ -219,6 +223,13 @@ input:-moz-placeholder {
         'Times New Roman',
         serif;
     line-height: 60px;
+    font-size: 23px;
+    text-decoration: none;
+}
+
+.portfolio-link:hover {
+    text-decoration: none;
+    color: 
 }
 
 #about-me-image {
