@@ -7,9 +7,7 @@ body {
 
 .image-container {}
 
-.card-container {
-
-}
+.card-container {}
 
 .card {
     border-radius: 0rem;
@@ -18,6 +16,7 @@ body {
     border-top-color: #ddd;
     border-bottom-color: #ddd;
 }
+
 #copyright-text {
     font-size: 12px;
 }
@@ -117,6 +116,7 @@ hr {
     height: 40px;
     width: 115px
 }
+
 .btn-primary:not(:disabled):not(.disabled).active,
 .btn-primary:not(:disabled):not(.disabled):active,
 .show>.btn-primary.dropdown-toggle {
@@ -172,6 +172,7 @@ label {
 input::placeholder {
     color: #ccc !important;
 }
+
 input::-webkit-input-placeholder {
     color: #ccc !important;
 }
@@ -186,6 +187,38 @@ input:-ms-input-placeholder {
 
 input:-moz-placeholder {
     color: #ccc !important;
+}
+
+.portfolio-placeholder {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.portfolio-image {
+    width: 100%;
+}
+
+#portfolio-container {
+    margin-top: 38px;
+}
+
+.portfolio-banner {
+    position: absolute;
+    width: calc(100% - 30px);
+    height: 60px;
+    background-color: #59aaa5;
+    bottom: 38px;
+}
+
+.portfolio-link {
+    color: white;
+    font-family: Georgia,
+        Times,
+        'Times New Roman',
+        serif;
+    line-height: 60px;
 }
 
 #about-me-image {
@@ -243,9 +276,7 @@ h1.card-title {
     box-shadow: 0 0 0 0.2rem hsla(176, 32%, 30%, 0.20);
 }
 
-.footer-container {
-
-}
+.footer-container {}
 
 /* Medium to small transition */
 @media screen and (max-width: 767px) {
