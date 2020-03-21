@@ -5,12 +5,43 @@ body {
     min-height: 100%;
 }
 
+div.lighten {
+    /* display: inline-block; */
+    background: black;
+    padding: 0;
+}
+
+.fab {
+    font-size: 2rem;
+    color: white;
+}
+
+div.lighten img {
+    /* display: block; */
+    opacity: 0.7;
+
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+
+div.lighten:hover img {
+    opacity: 1;
+
+}
+
 .card {
     border-radius: 0rem;
     border-right-color: #ddd;
     border-left-color: #ddd;
     border-top-color: #ddd;
     border-bottom-color: #ddd;
+}
+
+.list-group-item:first-child {
+    border-top: none;
 }
 
 #copyright-text {

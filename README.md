@@ -2,12 +2,14 @@
 
 ## About Me / Portfolio Page
 
-This is my attempt to create a responsive webpage based only on the static images provided.  It has proven to be the most difficult homework assignment yet, but I chalk that up to being too much of a perfectionist.  I feel this is a fairly accurate representation based on the images provided.
+This is my portfolio page. I hope it puts a good foot forward
 
 This has greatly improved my knowledge and understanding of Bootstrap and responsive web pages.  Given more time, I'm sure I could do an even *more* faithful representation of the provided web page images. 
 
 I relied heavily on the provided images and did my best to faithfully and accurately depict the header, footer, and style/colors.  Through lots of trial and error, I found what kinds of thing work -- what's possible and what's not.
 
-I went ahead and tried for the bonus (sticky footer) -- even though I think it makes the page look worse ;)
+## Links
 
-I feel good about the finished product -- all the hard work finally paid off!
+[Github](https://github.com/zackapotamus/Professional-Portfolio)
+
+[Github Hosted Page](https://zackapotamus.github.io/Professional-Portfolio/)
